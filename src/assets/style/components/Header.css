@@ -1,0 +1,126 @@
+header {
+  margin: auto;
+  padding: 2vw;
+  width: 60vw;
+}
+
+/* Header Superior */
+
+.HeaderSuperior {
+  display: flex;
+  align-items: center;
+}
+
+.containerTitle {
+  color: white;
+}
+
+.containerTitle h1 {
+  font-size: 2vw;
+  font-weight: 900;
+}
+
+.containerSocial {
+  display: flex;
+  justify-content: right;
+
+}
+
+.btnSocial {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 1vw;
+  width: 3vw;
+}
+
+.btnSocial img {
+  width: 100%;
+}
+
+/* Header Card */
+
+.HeaderCard {
+  background-color: rgb(226, 226, 226);
+  border-radius: 0.5vw;
+  box-shadow: 0.5vw 0.5vw 0.4vw 0.2vw rgba(0, 0, 0, 0.397);
+  display: flex;
+  margin: 3vw 0;
+}
+
+.HeaderCard img {
+  border-radius: 0.3vw 0 0 0.3vw;
+  width: 20vw;
+}
+
+.containerCard {
+  margin: 0 1vw;
+  padding: 1vw 0;
+  width: 95%;
+}
+
+.containerCardTitle {
+  margin-bottom: 1vw;
+  padding-bottom: 0.5vw;
+  border-bottom: 0.1vw solid black;
+}
+
+.containerCardTitle h2 {
+  font-size: 2vw;
+  font-weight: 800;
+}
+
+.containerCardTitle p {
+  font-size: 1.2vw;
+}
+
+.containerCardInfos {
+  display: flex;
+  width: 55%;
+}
+
+.containerCardInfos p {
+  font-size: 1.2vw;
+  font-weight: 800;
+}
+
+.containerP {
+  margin-right: 1.5vw;
+}
+
+.containerP p{
+  margin-top: 0.5vw;
+}
+
+.containerInfosCard {
+  display: grid;
+}
+
+.containerInfosCard a,
+.containerInfosCard span {
+  color: black;
+  font-weight: 400;
+  font-size: 1.2vw;
+  margin-top: 0.5vw;
+}
+
+.containerMidias {
+  border-radius: 0 0 0.5vw 0;
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4vw;
+  height: 5vw;
+  width: 100%;
+}
+
+.btnSocialCard{
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 3vw;
+}
+
+.btnSocialCard img {
+  width: 100%;
+}
