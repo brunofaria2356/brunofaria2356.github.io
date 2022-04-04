@@ -1,40 +1,6 @@
 header {
   margin: auto;
-  padding: 2vw;
-  width: 60vw;
-}
-
-/* Header Superior */
-
-.HeaderSuperior {
-  display: flex;
-  align-items: center;
-}
-
-.containerTitle {
-  color: white;
-}
-
-.containerTitle h1 {
-  font-size: 2vw;
-  font-weight: 900;
-}
-
-.containerSocial {
-  display: flex;
-  justify-content: right;
-
-}
-
-.btnSocial {
-  background: none;
-  border: none;
-  cursor: pointer;
-  margin: 0 1vw;
-  width: 3vw;
-}
-
-.btnSocial img {
+  padding: 2vw 4vw;
   width: 100%;
 }
 
@@ -50,18 +16,18 @@ header {
 
 .HeaderCard img {
   border-radius: 0.3vw 0 0 0.3vw;
-  width: 20vw;
+  width: 30%;
 }
 
 .containerCard {
   margin: 0 1vw;
   padding: 1vw 0;
-  width: 95%;
+  width: 97%;
 }
 
 .containerCardTitle {
   margin-bottom: 1vw;
-  padding-bottom: 0.5vw;
+  padding-bottom: 1vw;
   border-bottom: 0.1vw solid black;
 }
 
@@ -76,7 +42,7 @@ header {
 
 .containerCardInfos {
   display: flex;
-  width: 55%;
+  width: 85%;
 }
 
 .containerCardInfos p {
@@ -85,11 +51,11 @@ header {
 }
 
 .containerP {
-  margin-right: 1.5vw;
+  width: 20%;
 }
 
 .containerP p{
-  margin-top: 0.5vw;
+  margin-top: 1vw;
 }
 
 .containerInfosCard {
@@ -101,7 +67,8 @@ header {
   color: black;
   font-weight: 400;
   font-size: 1.2vw;
-  margin-top: 0.5vw;
+  margin-top: 1vw;
+  text-decoration: none;
 }
 
 .containerMidias {
@@ -116,6 +83,8 @@ header {
 
 .btnSocialCard{
   background: none;
+  display: flex;
+  align-items: center;
   border: none;
   cursor: pointer;
   width: 3vw;
@@ -123,4 +92,80 @@ header {
 
 .btnSocialCard img {
   width: 100%;
+}
+
+@media (max-width: 1000px)
+{
+  .HeaderCard {
+    display: grid;
+  }
+
+  .HeaderCard img {
+    border-radius: 0.5vw 0.5vw 0 0;
+    width: 100%;
+  }
+
+  .containerCard {
+    padding-left: 3vw ;
+  }
+
+  .btnSocialCard{
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 8vw;
+  }
+
+  .containerCardTitle {
+    margin-bottom: 2vw;
+    padding-bottom: 3vw;
+    border-bottom: 0.05vw solid black;
+  }
+
+  .containerCardTitle h2 {
+    font-size: 5vw;
+  }
+
+  .containerCardTitle p {
+    margin-top: 1vw;
+    font-size: 3vw;
+  }
+
+  .containerCardInfos {
+    width: 100%;
+  }
+
+  .containerCardInfos p {
+    font-size: 3.2vw;
+    font-weight: 700;
+  }
+
+  .containerP {
+    margin-right: 3vw;
+    width: 25%;
+  }
+
+  .containerP p{
+    margin-top: 3vw;
+  }
+
+  .containerInfosCard a,
+.containerInfosCard span {
+  margin-top: 3vw;
+  font-size: 2.5vw;
+}
+
+.containerMidias {
+  height: 8vw;
+  margin-top: 1vw;
+}
+
+.btnSocialCard{
+  width: 5vw;
+}
+
+.btnSocialCard img {
+  width: 100%;
+}
+
 }
